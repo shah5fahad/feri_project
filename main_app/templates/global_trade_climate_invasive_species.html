@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block title %}Global Trade, Climate Change & Invasive Alien Species | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Environmental Research</h1>
+        <p class="lead">Global Trade, Climate Change, and the Spread of Invasive Alien Species</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">
+                        Global Trade, Climate Change, and the Spread of Invasive Alien Species: Impacts on Ecosystem Services
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Babaharinand Saket<sup>1</sup>, Anand Chaurasia<sup>2</sup></p>
+                            <small>
+                                1. Research Scholar, Dept. of Botany, Maharaja Chhatrasal Bundelkhand University, Chhatarpur (M.P.), India<br>
+                                2. Assistant Professor, Dept. of Botany, PMCoE Chhatrasal Govt. P.G. College, Panna (M.P.), India
+                            </small>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers in Environmental Revolutionary Innovation (FERI), Vol 1, Issue 2, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            The accelerating pace of global trade and climate change has significantly influenced ecological stability worldwide. 
+                            One of the most critical consequences of these processes is the spread of Invasive Alien Species (IAS), increasingly transported across regions through trade activities and thriving in new environments due to changing climatic conditions. 
+                        </p>
+                        <p>
+                            Findings reveal that IAS follow major trade routes, with climate change enhancing their survival and establishment in diverse habitats. 
+                            The resulting invasions pose serious threats to provisioning, regulating, supporting, and cultural ecosystem services, disrupting biodiversity and ecosystem functions vital to human well-being.
+                        </p>
+                        <p>
+                            It emphasizes the urgent need for integrated strategies combining ecological, economic, and regulatory approaches to mitigate the impacts of IAS and safeguard ecosystem resilience. 
+                            This research contributes to informed policymaking and sustainable environmental management in the face of global change.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Saket_and_Chaurasia_2025_FERI_Paper_ID_01.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Saket Babaharinand and Chaurasia Anand. 2025. Global Trade, Climate Change, and the Spread of Invasive Alien Species: Impacts on Ecosystem Services. 
+                        <em>Frontiers in Environmental Revolutionary Innovation (FERI)</em>, 1(2), 1-12.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

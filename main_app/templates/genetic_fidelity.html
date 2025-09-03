@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% block title %}Macroinvertebrates & Water Quality - Kaliasote Dam | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Aquatic Biodiversity Research</h1>
+        <p class="lead">Macroinvertebrates as Indicators of Trophic Status & Water Quality of Kaliasote Dam</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">
+                        Macroinvertebrates as a Tool to Assess the Trophic Status and Water Quality of Kaliasote Dam
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>
+                                Nisar Ahmad Ganie<sup>1</sup>, Zahoor Ahmad Malik<sup>2</sup>
+                            </p>
+                            <small>
+                                1. Department of Zoology, Government College Raghogarh, Guna (MP), India<br>
+                                2. Department of Pharmacy, SIPTEC-R Ratibad, Bhopal (MP), India
+                            </small>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers in Environmental Revolutionary Innovation (FERI), Vol 1, Issue 2, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            An ecological assessment of Kaliasote Dam was conducted to evaluate the diversity of macroinvertebrates and their role in determining the trophic status and water quality. 
+                            A total of 56 species were recorded, with Arthropoda being the dominant group (32 species), followed by Mollusca (17) and Annelida (7).
+                        </p>
+                        <p>
+                            Seasonal variations showed higher species richness in summer compared to monsoon. Chemical parameters confirmed that Kaliasote Dam falls under the eutrophic category. 
+                            However, the abundance of tolerant species like Chironomus sp. and Culex sp. indicates moderate to severe pollution in parts of the dam.
+                        </p>
+                        <p>
+                            Biodiversity indices (Simpson & Shannon-Weaver) confirmed moderate diversity, while biotic indices (BMWP & ASPT) highlighted varying water quality from clean to heavily polluted across sampling stations.
+                        </p>
+                        <p>
+                            The study concludes that Kaliasote Dam is moderately polluted with clear eutrophic tendencies, emphasizing the urgent need for ecological monitoring and pollution control strategies.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Ganieet_al_2025_FERI_Paper_03.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Ganie, N.A. and Malik, Z.A. 2025. Macroinvertebrates as a tool to assess the trophic status and water quality of Kaliasote Dam. 
+                        <em>Frontiers in Environmental Revolutionary Innovation (FERI)</em>, 1(2), 21–33.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

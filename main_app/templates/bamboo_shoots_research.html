@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}Bamboo Shoots Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color: rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color: rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+    
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Nutrition & Sustainability Research</h1>
+        <p class="lead">Phytochemical and Nutritional Insights into Edible Bamboo Shoots: Bioactives, Processing, and Sustainability</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">Phytochemical and Nutritional Insights into Edible Bamboo Shoots: Bioactives, Processing, and Sustainability</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Sunita Tiwari, Priyanka Tiwari</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers in Environmental Revolutionary Innovation (FERI), Vol 1, Issue 2, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            Bamboo shoots represent a significant underutilized food resource with exceptional nutritional and phytochemical properties. This comprehensive research paper examines the nutritional composition, bioactive compounds, processing methods, and sustainability aspects of edible bamboo shoots across multiple species.
+                        </p>
+                        <p>
+                            The study reveals that bamboo shoots contain superior levels of protein (3.71g/100g), dietary fiber (3.94g/100g), and essential minerals compared to common vegetables, while providing valuable phytochemicals including phenolic compounds, phytosterols, and amino acids. Through systematic analysis of processing methods, we demonstrate that toxic cyanogenic glycosides can be effectively reduced by 96% through proper treatment, making bamboo shoots safe for consumption.
+                        </p>
+                        <p>
+                            The environmental benefits of bamboo cultivation, including carbon sequestration rates of 12-60 tons CO2/hectare/year and rapid growth characteristics, position bamboo shoots as a sustainable solution for food security and climate change mitigation.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Tiwari_2025_FERI_Paper_ID_04.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Sunita Tiwari, Priyanka Tiwari. 2025. Phytochemical and Nutritional Insights into Edible Bamboo Shoots: Bioactives, Processing, and Sustainability. <em>Frontiers in Environmental Revolutionary Innovation</em>, 1, 2, 34-51.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

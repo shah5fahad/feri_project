@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}Bird Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color: rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color: rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+    
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Ornithological Research</h1>
+        <p class="lead">First Record of a Leucistic Indian Pied Starling (Gracupica contra) from Keonjhar, Odisha, India</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">First Record of a Leucistic Indian Pied Starling (Gracupica contra) from Keonjhar, Odisha, India</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Anil Sarsavan, Satish Kumar Sharam, Manohar Pawar</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers in Environmental Revolutionary Innovation (FERI), Vol 1, Issue 2, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            We report a leucistic Indian Pied Starling (Gracupica contra) observed in Keonjhar District, Odisha, India. In contrast to albinism, the individual's large white feathers and preserved black soft-part pigmentation (normal eye and bill) were consistent with leucism, a partial loss of melanin deposition.
+                        </p>
+                        <p>
+                            According to the published record, this is one of the few reports of leucism in G. contra from eastern India and the first recorded case from Keonjhar. The observation was made on 17 December 2024 in the Samantaraypur Sasan area (21.62°N, 85.59°E) of Keonjhar city.
+                        </p>
+                        <p>
+                            The bird's overall body was predominantly white with a dirty-blackish cap, black primaries and black tail. The throat and back were also white in color. The basal parts of the upper and lower mandibles were orange, but the distal parts were whitish. Skin around the eyes was orange and the eyes were of reddish color. Its legs were pale-pinkish.
+                        </p>
+                        <p>
+                            In addition to field documentation and a brief differential diagnosis that distinguishes leucism from albinism and progressive greying, this note also addresses the potential ecological and conservation significance of these pigment abnormalities.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Sarsavan_etal_2025_FERI_Paper_ID_05.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Sarsavan Anil, Sharam Satish Kumar and Pawar Manohar. 2025. First Record of a Leucistic Indian Pied Starling (Gracupica contra) from Keonjhar, Odisha, India. <em>Frontiers in Environmental Revolutionary Innovation</em>, 1, 2, 52-57.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

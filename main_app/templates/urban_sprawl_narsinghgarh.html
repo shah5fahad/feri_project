@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}Urban Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color: rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color: rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+    
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Urban Research</h1>
+        <p class="lead">Geo-Spatial Insights into Urban Sprawl and Land Use Transformation: A GIS-Based Case Study of Narsinghgarh, Madhya Pradesh</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">Geo-Spatial Insights into Urban Sprawl and Land Use Transformation: A GIS-Based Case Study of Narsinghgarh, Madhya Pradesh</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Nitesh Bhargava, Kamal Kushwaha, Manohar Pawar</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers in Environmental Revolutionary Innovation (FERI), Vol 1, Issue 2, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            Urban sprawls are locations where the lines separating rural and urban areas are crossed. Urban sprawl is caused by a variety of factors, such as population expansion, socioeconomic situations, technological improvements, and development rules. In India, the rapid expansion of cities and towns due to urbanization and population growth has raised serious concerns about urban sprawl.
+                        </p>
+                        <p>
+                            Because urban sprawl has resulted from unplanned and uncontrolled growth, having its boundaries indefinitely is seen as a serious issue. To address these issues, plans for resolving uncertainties in urban sprawl should be put in place. In this sense, rapid data generation and the identification of urban sprawl boundaries would be aided by Geographic Information Systems (GIS).
+                        </p>
+                        <p>
+                            The objective of this study is to monitor the land cover and land use of a portion of Narsinghgarh city and urban sprawl over two time periods, from 2005 to 2015, to detect changes and evaluate urban sprawl using topographic sheets and Google map data in a GIS environment for better decision-making and sustainable urban growth.
+                        </p>
+                        <p>
+                            The investigation reveals that land use and land cover changes, as well as trends in urban spatial growth, may be accurately and thoroughly assessed using remote sensing and GIS approaches. The results demonstrate that while urban sprawl cannot be totally avoided, its effects can be considerably lessened with the use of sustainable and structured planning frameworks.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Bhargava_etal_2025_FERI_Paper_ID_06.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Bhargava Nitesh, Kushwaha Kamal and Pawar Manohar. 2025. Geo-Spatial Insights into Urban Sprawl and Land Use Transformation: A GIS-Based Case Study of Narsinghgarh, Madhya Pradesh. <em>Frontiers in Environmental Revolutionary Innovation</em>, 1, 2, 58-73.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}
