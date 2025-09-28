@@ -41,6 +41,11 @@ def current_issue():
     return render_template('Current_issue.html')
 
 
+@app.route('/archive_issue')
+def archive_issue():
+    return render_template('archive_issue.html')
+
+
 @app.route('/runjh_dam_biodiversity')
 def runjh_dam_biodiversity():
     return render_template('runjh_dam_biodiversity.html')

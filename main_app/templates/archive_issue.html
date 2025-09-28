@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+
+{% block title %}Current Research Issues - Frontiers in Environmental Revolutionary Innovation{% endblock %}
+
+{% block content %}
+<br><br><br><br>
+<style>
+    .research-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .page-title {
+        color: #2c3e50;
+        margin-bottom: 40px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #3498db;
+        text-align: center;
+        font-weight: 600;
+    }
+    .research-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        border-left: 4px solid #3498db;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .research-card-link {
+        text-decoration: none;
+        color: inherit;
+    }
+    .research-card-link:hover .research-card {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        border-left: 4px solid #2980b9;
+    }
+    .research-card-link:active .research-card {
+        transform: translateY(-2px);
+    }
+    .research-title {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .research-description {
+        color: #555;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        flex-grow: 1;
+    }
+    .read-more-btn {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 4px;
+        font-weight: 500;
+        transition: background-color 0.3s;
+        align-self: flex-start;
+    }
+    .research-card-link:hover .read-more-btn {
+        background-color: #2980b9;
+    }
+    .research-meta {
+        font-size: 0.9rem;
+        color: #7f8c8d;
+        margin-top: 15px;
+    }
+    @media (max-width: 768px) {
+        .research-card {
+            padding: 20px;
+        }
+        .research-title {
+            font-size: 1.1rem;
+        }
+    }
+</style>
+
+<div class="research-container">
+    <div class="container section-title" data-aos="fade-up">
+        <h1 lass="fw-bold ">Archive Published Issues</h1>
+    </div>
+    <div class="row">
+        <!-- Research Item 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/global_trade_climate_invasive_species" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">
+                        Global Trade, Climate Change, and the Spread of Invasive Alien Species: Impacts on Ecosystem Services
+                    </h3>
+                    <p class="research-description">
+                        This paper explores how global trade and climate change together accelerate the spread of Invasive Alien Species (IAS), threatening biodiversity and ecosystem services worldwide. It highlights how trade routes and climatic shifts aid IAS survival, impacting agriculture, forestry, water systems, and human well-being, while stressing the urgent need for integrated ecological, economic, and policy measures.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 24 Oct 2025 </span> | 
+                        <span>Category: Environmental Science</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        
+        <!-- Research Item 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/runjh_dam_biodiversity" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">
+                        Biodiversity Conservation and Phytodiversity Assessment in the Catchment Area of Runjh Dam, Panna (M.P.)
+                    </h3>
+                    <p class="research-description">
+                        This study evaluates the ecological impact of the Runjh Dam catchment on plant diversity using quadrat and transect-based analysis supported by GIS mapping. 
+                        Findings highlight major shifts in species distribution, soil changes, and habitat fragmentation, while also stressing the role of afforestation, buffer zones, and community-based conservation in sustainable development.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 24 Oct 2025 </span> | 
+                        <span>Category: Environmental Science</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        
+        <!-- Research Item 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/genetic_fidelity" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">
+                        Macroinvertebrates as Indicators of Trophic Status & Water Quality of Kaliasote Dam
+                    </h3>
+                    <p class="research-description">
+                        This ecological study investigates macroinvertebrate diversity in Kaliasote Dam, highlighting their role in determining water quality and trophic status. The findings reveal moderate pollution, eutrophic tendencies, and the presence of tolerant species, underscoring the need for regular ecological monitoring and sustainable management.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 24 Oct 2025 </span> | 
+                        <span>Category: Environmental Science</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/bamboo_shoots_research" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">Phytochemical and Nutritional Insights into Edible Bamboo Shoots</h3>
+                    <p class="research-description">
+                        A comprehensive analysis of bamboo shoots as a sustainable food resource, examining their exceptional nutritional profile (3.71g protein/100g, 3.94g fiber/100g), bioactive compounds, processing methods that reduce toxins by 96%, and environmental benefits including carbon sequestration of 12-60 tons CO₂/hectare/year.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 6 August 2025</span> | 
+                        <span>Category: Food Science & Sustainability</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/leucistic_starling" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">First Record of Leucistic Indian Pied Starling in Keonjhar, Odisha</h3>
+                    <p class="research-description">
+                        This study documents the first observation of a leucistic Indian Pied Starling (Gracupica contra) in Keonjhar District, Odisha, India. The bird exhibited large white feathers with preserved black soft-part pigmentation (normal eye and bill), consistent with leucism rather than albinism. This represents one of the few reports of leucism in this species from eastern India.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 6 August 2025</span> | 
+                        <span>Category: Ornithology & Ecology</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/urban_sprawl_narsinghgarh" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">GIS-Based Analysis of Urban Sprawl in Narsinghgarh, MP</h3>
+                    <p class="research-description">
+                        This GIS-based study analyzes urban sprawl and land use transformation in Narsinghgarh, Madhya Pradesh from 2005 to 2015. The research reveals significant expansion of built-up areas (15% of total land), consumption of agricultural land (52%), and patterns of development along transportation corridors. Population projections indicate continued growth, necessitating sustainable urban planning strategies.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: 6 August 2025</span> | 
+                        <span>Category: Urban Planning & GIS</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+
+{% endblock %}
